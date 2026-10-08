@@ -24,7 +24,7 @@
 
 ![img](https://halflife.hackclub-assets.com/hackclub-half-life/sessions/iPQiPBB3YAqPu4RFe838ZhRAebDnRFaL/44008bef5d4b60166645498d30f997ff86154a471fa440630878371ad44ff05c.png)
 
-I installed KiCad and set it up, and also completed the main parts of the PCB. This included my  completion of the schematics of the main parts, and wired the buttons, sensors, and pins, and also assigned footprints.
+I installed KiCad and set it up, and also completed the main schematic parts of the PCB. This included my  completion of the schematics of the main parts, and wired the buttons, sensors, and pins, and also assigned footprints.
 
 ![img_1](https://halflife.hackclub-assets.com/hackclub-half-life/sessions/iPQiPBB3YAqPu4RFe838ZhRAebDnRFaL/959f23ed54aacc0cdf0d66837592fa3a05b9fc13300d09acec5cf9f8c56a1434.png)
 
