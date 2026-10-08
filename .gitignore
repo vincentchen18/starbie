@@ -1,0 +1,11 @@
+# KiCad local history (nested git repo)
+.history/
+
+# KiCad backups and caches
+*.bak
+*-backups/
+*.kicad_prl
+fp-info-cache
+
+# WakaTime
+.wakatime-project

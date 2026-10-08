@@ -12,4 +12,8 @@
 | --- | --- | --- | --- |
 | Week 1 | Tier 1 | 0h | 0 |
 
-_No entries logged yet._
+### October 8
+
+![schematic](./Journal/img.png)
+
+Completed the schematics of the main parts, and wired the buttons, sensors, and pins, and also assigned footprints.
