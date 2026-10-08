@@ -10,7 +10,7 @@
 
 | Week | Tier | Hours logged | Entries |
 | --- | --- | --- | --- |
-| Week 1 | Tier 1 | 1.5h | 2 |
+| Week 1 | Tier 1 | 2.5h | 2 |
 
 ## Contents
 
@@ -33,7 +33,7 @@ I installed KiCad and set it up, and also completed the main schematic parts of 
 
 ### 2026-10-08 – fixed an assignment error in the schematic, routed most of the pcb and debugged around 9 disconnection errors, arranged the componenets in the pcb. also drew on some smiley faces to decorate the pcb o
 
-**0.5h**
+**1.5h**
 
 fixed an assignment error in the schematic, routed most of the pcb and debugged around 9 disconnection errors, arranged the componenets in the pcb. also drew on some smiley faces to decorate the pcb on F.silkscreen. took way too long figuring out a bunch of the disconnection errors.
 
