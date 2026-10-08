@@ -10,12 +10,12 @@
 
 | Week | Tier | Hours logged | Entries |
 | --- | --- | --- | --- |
-| Week 1 | Tier 1 | 2.5h | 2 |
+| Week 1 | Tier 1 | 1.5h | 2 |
 
 ## Contents
 
 1. [2026-10-08 – ![img](https://halflife.hackclub-assets.com/hackclub-half-life/sessions/iPQiPBB3YAqPu4RFe838ZhRAebDnRFaL/44008bef5d4b60166645498d30f997ff86154a471fa440630878371ad44ff05c.png)](#2026-10-08-imghttpshalflifehackclub-assetscomhackclub-half-l)
-2. [2026-10-08 – fixed an assignment error in the schematic, routed most of the pcb and debugged around 9 disconnection errors, arranged the componenets in the pcb](#2026-10-08-fixed-an-assignment-error-in-the-schematic-routed)
+2. [2026-10-08 – fixed an assignment error in the schematic, routed most of the pcb and debugged around 9 disconnection errors, arranged the componenets in the pcb. also drew on some smiley faces to decorate the pcb o](#2026-10-08-fixed-an-assignment-error-in-the-schematic-routed)
 
 ## Design
 
@@ -31,10 +31,16 @@ I installed KiCad and set it up, and also completed the main schematic parts of 
 
 [Timelapse](https://lookout.hackclub.com/api/media/35823ac3-b5e4-4b0f-ad4b-185a51eba857/video.mp4)
 
-### 2026-10-08 – fixed an assignment error in the schematic, routed most of the pcb and debugged around 9 disconnection errors, arranged the componenets in the pcb
+### 2026-10-08 – fixed an assignment error in the schematic, routed most of the pcb and debugged around 9 disconnection errors, arranged the componenets in the pcb. also drew on some smiley faces to decorate the pcb o
 
-**1.5h**
+**0.5h**
 
-fixed an assignment error in the schematic, routed most of the pcb and debugged around 9 disconnection errors, arranged the componenets in the pcb
+fixed an assignment error in the schematic, routed most of the pcb and debugged around 9 disconnection errors, arranged the componenets in the pcb. also drew on some smiley faces to decorate the pcb on F.silkscreen. took way too long figuring out a bunch of the disconnection errors.
+
+![img_2](https://halflife.hackclub-assets.com/hackclub-half-life/sessions/iPQiPBB3YAqPu4RFe838ZhRAebDnRFaL/fe6a940987bacb270c4972a66b132a92c6d661deea7578e4a9f93708859bc4c7.png)
+
+![img_3](https://halflife.hackclub-assets.com/hackclub-half-life/sessions/iPQiPBB3YAqPu4RFe838ZhRAebDnRFaL/72fdd08ea08a7f62fbd329752be2ccd330c7606dcb55b128a634bfc457d4556f.png)
+
+![img_4](https://halflife.hackclub-assets.com/hackclub-half-life/sessions/iPQiPBB3YAqPu4RFe838ZhRAebDnRFaL/f9186e5f4725ca9face2a51fd93ed5eae7b8c85500c3b0aa72dac24ee7cc9ef7.png)
 
 [Timelapse](https://lookout.hackclub.com/api/media/db29ec1c-e77f-40d6-b7ab-53872e7cf25d/video.mp4)
