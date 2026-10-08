@@ -10,7 +10,7 @@
 
 | Week | Tier | Hours logged | Entries |
 | --- | --- | --- | --- |
-| Week 1 | Tier 1 | 1.97h | 1 |
+| Week 1 | Tier 1 | 1h | 1 |
 
 ## Contents
 
@@ -20,7 +20,7 @@
 
 ### 2026-10-08 – ![img](https://halflife.hackclub-assets.com/hackclub-half-life/sessions/iPQiPBB3YAqPu4RFe838ZhRAebDnRFaL/44008bef5d4b60166645498d30f997ff86154a471fa440630878371ad44ff05c.png)
 
-**1.97h**
+**1h**
 
 ![img](https://halflife.hackclub-assets.com/hackclub-half-life/sessions/iPQiPBB3YAqPu4RFe838ZhRAebDnRFaL/44008bef5d4b60166645498d30f997ff86154a471fa440630878371ad44ff05c.png)
 
