@@ -10,13 +10,13 @@
 
 | Week | Tier | Hours logged | Entries |
 | --- | --- | --- | --- |
-| Week 1 | Tier 1 | 2.95h | 3 |
+| Week 1 | Tier 1 | 3.97h | 3 |
 
 ## Contents
 
 1. [2026-10-08 – ![img](https://halflife.hackclub-assets.com/hackclub-half-life/sessions/iPQiPBB3YAqPu4RFe838ZhRAebDnRFaL/44008bef5d4b60166645498d30f997ff86154a471fa440630878371ad44ff05c.png)](#2026-10-08-imghttpshalflifehackclub-assetscomhackclub-half-l)
 2. [2026-10-08 – fixed an assignment error in the schematic, routed most of the pcb and debugged around 9 disconnection errors, arranged the componenets in the pcb. also drew on some smiley faces to decorate the pcb o](#2026-10-08-fixed-an-assignment-error-in-the-schematic-routed)
-3. [2026-10-08 – Work session](#2026-10-08-work-session)
+3. [2026-10-08 – started making my own additions on top of the tutorial,so i began making switches + a battery connector to be able to turn the pet off and on.  routed the new switch + battery connector and testpoint](#2026-10-08-started-making-my-own-additions-on-top-of-the-tut)
 
 ## Design
 
@@ -46,8 +46,12 @@ fixed an assignment error in the schematic, routed most of the pcb and debugged 
 
 [Timelapse](https://lookout.hackclub.com/api/media/db29ec1c-e77f-40d6-b7ab-53872e7cf25d/video.mp4)
 
-### 2026-10-08 – Work session
+### 2026-10-08 – started making my own additions on top of the tutorial,so i began making switches + a battery connector to be able to turn the pet off and on.  routed the new switch + battery connector and testpoint
 
-**0.45h**
+**1.47h**
+
+started making my own additions on top of the tutorial,so i began making switches + a battery connector to be able to turn the pet off and on.  routed the new switch + battery connector and testpoint as well. retraced the outline of the star to be more rounded. Additionally, also added an LED light which is planned to be programmed to display the pet's mood when interacted with using different colours.
 
 [Timelapse](https://lookout.hackclub.com/api/media/1d5f2b54-be3c-4a15-8469-56e5cb6baf65/video.mp4)
+
+[Timelapse](https://lookout.hackclub.com/api/media/67d17640-05b7-416e-a1fa-1f9a58a8a9c0/video.mp4)
