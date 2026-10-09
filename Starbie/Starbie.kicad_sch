@@ -2837,7 +2837,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Imported_Parts:XIAO-ESP32-C6-DIP"
+		(property "Footprint" "Sensor:Aosong_DHT11_5.5x12.0_P2.54mm"
 			(at 95.25 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -3159,7 +3159,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Sensor:Aosong_DHT11_5.5x12.0_P2.54mm"
+		(property "Footprint" "Imported_Parts:XIAO-ESP32-C6-DIP"
 			(at 112.522 119.634 0)
 			(hide yes)
 			(show_name no)
