@@ -10,7 +10,7 @@
 
 | Week | Tier | Hours logged | Entries |
 | --- | --- | --- | --- |
-| Week 1 | Tier 1 | 4.75h | 4 |
+| Week 1 | Tier 1 | 4.99h | 4 |
 
 ## Contents
 
@@ -65,6 +65,10 @@ started making my own additions on top of the tutorial,so i began making switche
 
 ### 2026-10-09 – Work session
 
-**0.28h**
+**0.52h**
+
+Work session
 
 [Timelapse](https://lookout.hackclub.com/api/media/4cceed7a-3abc-41f5-8dc0-7b1cdccfcb17/video.mp4)
+
+[Timelapse](https://lookout.hackclub.com/api/media/e81d35c2-c085-40f8-a3dd-16f4c6ba8308/video.mp4)
