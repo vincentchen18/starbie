@@ -4494,6 +4494,90 @@
 		(layer "Edge.Cuts")
 		(uuid "02b9846f-e384-4255-920f-b8dffa1869fa")
 	)
+	(gr_text "Menu"
+		(at 97.5 92.5 90)
+		(layer "F.SilkS")
+		(uuid "e76ddec6-a1af-47c7-9eb7-a7adbf33a982")
+		(effects
+			(font
+				(size 3 3)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "Stats"
+		(at 101 119 90)
+		(layer "F.SilkS")
+		(uuid "3214e0e5-723e-4c45-b48b-b2b322eafaeb")
+		(effects
+			(font
+				(size 3 3)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "+\n"
+		(at 171.5 85.5 0)
+		(layer "B.SilkS")
+		(uuid "d6d16cd4-4364-4d2d-8fad-004eebe3a93c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom mirror)
+		)
+	)
+	(gr_text "ON"
+		(at 178 79 0)
+		(layer "B.SilkS")
+		(uuid "7a04da3f-0ae9-443a-b4f6-e243f1b5b390")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom mirror)
+		)
+	)
+	(gr_text "-\n"
+		(at 180 85.5 0)
+		(layer "B.SilkS")
+		(uuid "6291d05a-29fa-4f2b-9f24-e8cca2e9c52b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom mirror)
+		)
+	)
+	(gr_text "OFF"
+		(at 192.5 79 0)
+		(layer "B.SilkS")
+		(uuid "e3c8946f-1cfb-4942-8771-5372cbcf7885")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom mirror)
+		)
+	)
+	(gr_text "Starbie v1\nby Vincent"
+		(at 165 129 0)
+		(layer "B.SilkS")
+		(uuid "dc11ad04-572c-4e83-bcd8-68fdc559bed1")
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.3)
+			)
+			(justify left bottom mirror)
+		)
+	)
 	(segment
 		(start 170.5 89.5)
 		(end 168.267 91.733)
