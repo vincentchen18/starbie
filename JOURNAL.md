@@ -10,14 +10,14 @@
 
 | Week | Tier | Hours logged | Entries |
 | --- | --- | --- | --- |
-| Week 1 | Tier 1 | 4.99h | 4 |
+| Week 1 | Tier 1 | 5.02h | 4 |
 
 ## Contents
 
 1. [2026-10-08 – ![img](https://halflife.hackclub-assets.com/hackclub-half-life/sessions/iPQiPBB3YAqPu4RFe838ZhRAebDnRFaL/44008bef5d4b60166645498d30f997ff86154a471fa440630878371ad44ff05c.png)](#2026-10-08-imghttpshalflifehackclub-assetscomhackclub-half-l)
 2. [2026-10-08 – fixed an assignment error in the schematic, routed most of the pcb and debugged around 9 disconnection errors, arranged the componenets in the pcb. also drew on some smiley faces to decorate the pcb o](#2026-10-08-fixed-an-assignment-error-in-the-schematic-routed)
 3. [2026-10-08 – ![img_4](https://halflife.hackclub-assets.com/hackclub-half-life/sessions/iPQiPBB3YAqPu4RFe838ZhRAebDnRFaL/f9186e5f4725ca9face2a51fd93ed5eae7b8c85500c3b0aa72dac24ee7cc9ef7.png)](#2026-10-08-img4httpshalflifehackclub-assetscomhackclub-half-)
-4. [2026-10-09 – Work session](#2026-10-09-work-session)
+4. [2026-10-09 – instaleld the arduino IDE and its adafruit and required dependencies. programmed in the mood light features to change colour depending on pet needs/emotions. realised a potential issue in the pcb that](#2026-10-09-instaleld-the-arduino-ide-and-its-adafruit-and-re)
 
 ## Design
 
@@ -63,12 +63,18 @@ started making my own additions on top of the tutorial,so i began making switche
 
 [Timelapse](https://lookout.hackclub.com/api/media/67d17640-05b7-416e-a1fa-1f9a58a8a9c0/video.mp4)
 
-### 2026-10-09 – Work session
+### 2026-10-09 – instaleld the arduino IDE and its adafruit and required dependencies. programmed in the mood light features to change colour depending on pet needs/emotions. realised a potential issue in the pcb that
 
-**0.52h**
+**0.55h**
 
-Work session
+instaleld the arduino IDE and its adafruit and required dependencies. programmed in the mood light features to change colour depending on pet needs/emotions. realised a potential issue in the pcb that could stop the circuit board from booting. also fixed the porting error in the schematic and PCB editor
+
+![img_7](https://halflife.hackclub-assets.com/hackclub-half-life/sessions/iPQiPBB3YAqPu4RFe838ZhRAebDnRFaL/8d16e1a6444ea3d88ee05f05628d87f4ea23f15a99cd3d17e602babd33546387.png)
+
+![img_8](https://halflife.hackclub-assets.com/hackclub-half-life/sessions/iPQiPBB3YAqPu4RFe838ZhRAebDnRFaL/778e6faaf54e7fe1ebf6f59d85dfd3e13a4d1d5d6d96da7d5248b6512d388e03.png)
 
 [Timelapse](https://lookout.hackclub.com/api/media/4cceed7a-3abc-41f5-8dc0-7b1cdccfcb17/video.mp4)
 
 [Timelapse](https://lookout.hackclub.com/api/media/e81d35c2-c085-40f8-a3dd-16f4c6ba8308/video.mp4)
+
+[Timelapse](https://lookout.hackclub.com/api/media/b0837a10-126a-48b9-8840-80096c12c5b5/video.mp4)
