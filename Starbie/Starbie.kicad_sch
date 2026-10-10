@@ -3289,10 +3289,6 @@
 		(uuid "9335889a-e6f5-4828-a0bf-c6483b25ebda")
 	)
 	(no_connect
-		(at 171.45 99.06)
-		(uuid "b35b2217-fc21-4b6e-8362-666fb6c37249")
-	)
-	(no_connect
 		(at 97.79 81.28)
 		(uuid "bef5b280-0dfe-446e-a95b-39e93ca46ca8")
 	)
@@ -3303,6 +3299,10 @@
 	(no_connect
 		(at 140.97 74.93)
 		(uuid "c1d8bce7-3dd2-40a9-a5cb-c3e2bc2edac8")
+	)
+	(no_connect
+		(at 129.54 87.63)
+		(uuid "f0c50602-9e24-4b03-94a7-978216221f9a")
 	)
 	(no_connect
 		(at 148.59 119.38)
@@ -3792,16 +3792,6 @@
 		)
 		(uuid "909fd3f3-cff7-4241-95dc-f97f465be1fd")
 	)
-	(label "LED_R"
-		(at 129.54 87.63 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "ac664756-0e25-4d4a-b6bf-264fad8c82cc")
-	)
 	(label "GPIO2"
 		(at 66.04 62.23 180)
 		(effects
@@ -3841,6 +3831,16 @@
 			(justify right bottom)
 		)
 		(uuid "b4af73be-2d7a-4d9e-8c79-9f7a81ec1b49")
+	)
+	(label "LED_R"
+		(at 171.45 99.06 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "cec3f55f-e992-4e35-8ac1-099fad8d6a32")
 	)
 	(label "GPIO3"
 		(at 66.04 77.47 180)
