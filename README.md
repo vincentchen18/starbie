@@ -37,6 +37,7 @@ Red: too hot!
 ice blue: too cold!
 amber: hungry or tired
 green: happy (brighter = morer happierness)
+purple: dizzy
 
 ## Hardware
 

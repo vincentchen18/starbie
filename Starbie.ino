@@ -99,6 +99,24 @@ const int SHAKE_JOY_CHANGE = 5;
 const int SHAKE_ENERGY_CHANGE = -2;
 const int SHAKE_FULLNESS_CHANGE = -1;
 
+// additional effect: gets dizzy when flipped over
+
+const float PICKUP_THRESHOLD = 2.5f;
+const uint16_t PICKUP_COOLDOWN_MS = 1500;
+const uint16_t SURPRISE_DURATION_MS = 900;
+const uint16_t DIZZY_AFTER_FLIP_MS = 2500;
+const int FLIP_JOY_CHANGE = -2; // get slightly unhappier if flipped
+const int FLIP_ENERGY_CHANGE = -2; //lose a bit of energy
+
+// additional effect: stats get worse the less you interact with Starbie
+
+const uint32_t DECAY_INTERVAL_MS = 5UL * 60UL * 1000UL; // i think? this is 5 minutes worth of miliseoncds
+const int DECAY_JOY = -1;
+const int DECAY_ENERGY = -1;
+const int DECAY_FULLNESS = -2;
+const int NEEDY_THRESHOLD = 25; // starbie get sad after pass this threshold
+
+
 // --- Your pet's bitmap and animation -------------------------------------
 // This is a simplified 32 by 32, one-bit version of the supplied character.
 // You can replace it with your own art later; keep these size values matched
@@ -222,6 +240,14 @@ uint32_t nappingUntil = 0;
 uint32_t heartAnimationEndsAt = 0;
 uint32_t playRunStartedAt = 0;
 int nappingPetX = 0;
+float restX = 0.0f;
+float restY = 0.0f;
+float restZ = 0.0f;
+uint32_t lastPickupAt = 0;
+uint32_t surpriseEndsAt = 0;
+bool upsideDown = false;
+uint32_t dizzyUntil = 0;
+uint32_t lastDecayAt = 0;
 
 int petWalkingX(uint32_t now);
 
@@ -292,6 +318,90 @@ void updateMpu() {
   accelerationZ = acceleration.acceleration.z;
 }
 
+void calibrateRest() {
+  if (!mpuFound) return;
+  float sumX = 0;
+  float sumY = 0;
+  float sumZ = 0;
+  for (int i = 0; i<20; i++) {
+    sensors_event_t a, g, t;
+    mpu.getEvent(&a, &g, &t);
+    sumX += a.acceleration.x;
+    sumY += a.acceleration.y;
+    sumZ += a.acceleration.z;
+    delay(10);
+  }
+  restX = sumX/20;
+  restY = sumY/20;
+  restZ = sumZ/20;
+}
+
+float gravityAlongRest() {
+  const float restLength = sqrtf(restX * restX + restY * restY + restZ * restZ);
+  if (restLength < 1.0f) return STANDARD_GRAVITY;
+  return (accelerationX * restX + accelerationY * restY + accelerationZ * restZ) / restLength;
+}
+
+bool isDizzy() {
+  return upsideDown || (dizzyUntil != 0 && millis() < dizzyUntil);
+}
+
+bool isSurprised() {
+  return surpriseEndsAt != 0 && millis() < surpriseEndsAt;
+}
+
+void checkMotionReactions() {
+  if (!mpuFound || currentView != PET_VIEW) return;
+  const uint32_t now = millis();
+  const float along = gravityAlongRest();
+  if (!upsideDown && along < -STANDARD_GRAVITY * 0.5f) {
+    upsideDown = true;
+    nappingUntil = 0;
+    return;
+  }
+
+  if (upsideDown) {
+    if (along < STANDARD_GRAVITY * 0.5f) return;
+    upsideDown = false;
+    dizzyUntil = now + DIZZY_AFTER_FLIP_MS;
+    lastPickupAt = now;
+    changePet(FLIP_JOY_CHANGE, FLIP_ENERGY_CHANGE, 0);
+    savePet();
+    return;
+  }
+  const float magnitude = sqrtf(accelerationX * accelerationX + accelerationY * accelerationY + accelerationZ * accelerationZ);
+  const bool shaking = fabsf(magnitude - STANDARD_GRAVITY) >= SHAKE_THRESHOLD;
+  if (!shaking && along > STANDARD_GRAVITY + PICKUP_THRESHOLD && now - lastPickupAt >= PICKUP_COOLDOWN_MS && now - lastShakeAt >= SHAKE_COOLDOWN_MS) {
+    lastPickupAt = now;
+    nappingUntil = 0;
+    surpriseEndsAt = now + SURPRISE_DURATION_MS;
+    petJumpStartedAt = now;
+  }
+}
+
+void drawTinyStar(int x, int y) {
+  display.drawPixel(x, y-1, SSD1306_WHITE);
+  display.drawPixel(x-1, y, SSD1306_WHITE);
+  display.drawPixel(x, y+1, SSD1306_WHITE);
+  display.drawPixel(x+1, y, SSD1306_WHITE);
+  display.drawPixel(x, y, SSD1306_WHITE);
+}
+
+void drawDizzyStars(uint32_t now, int petX, int petY) {
+  const float angle = now / 120.0f;
+  for (int i = 0; i<2; i++) {
+    const float a = angle + i * PI;
+    drawTinyStar(petX + 16 + (int)(cosf(a) * 11.0f), petY + 4 + (int)(sinf(a) * 3.0f));
+  }
+}
+
+void drawSurprise(int petX, int petY) {
+  display.setTextSize(1);
+  display.setTextColor(SSD1306_WHITE);
+  display.setCursor(petX + 14, petY-4);
+  display.print("!");
+}
+
 void updateDht() {
   if (!dhtFound || millis() - lastDhtReadAt < DHT_READ_INTERVAL_MS) {
     return;
@@ -341,6 +451,32 @@ void updatePetTimers() {
   }
   if (playRunStartedAt != 0 && !isPlaying()) {
     playRunStartedAt = 0;  // PLAY is exactly two left-to-right-to-left laps.
+  }
+}
+
+void updateDecay() {
+  const uint32_t now = millis();
+  if (now - lastDecayAt < DECAY_INTERVAL_MS) return;
+  lastDecayAt = now;
+  if (isNapping()) {
+    changePet(0, 0, DECAY_FULLNESS); // if nap, save energy and joy but still get hungry.
+  } else {
+    changePet(DECAY_JOY, DECAY_ENERGY, DECAY_FULLNESS);
+  }
+  savePet();
+}
+
+bool isNeedy() {
+  return pet.joy < NEEDY_THRESHOLD || pet.energy < NEEDY_THRESHOLD || pet.fullness < NEEDY_THRESHOLD;
+}
+
+void drawNeedyDots(uint32_t now, int petX, int petY) {
+  if ((now / 600) % 2 == 0) { // blink needily?
+    display.setTextSize(1);
+    display.setTextColor(SSD1306_WHITE);
+    display.setCursor(petX + 10, petY-4);
+    display.print("...");
+
   }
 }
 
@@ -498,6 +634,10 @@ void drawPet() {
     petX += static_cast<int>(sinf(now / 18.0f) * 3.0f);
   }
 
+  if (isDizzy()) {
+    petX += (int)(sinf(now / 90.0f) * 4.0f);
+  }
+
   if (!isNapping() && petJumpStartedAt != 0) {
     const uint32_t animationAge = now - petJumpStartedAt;
 
@@ -518,6 +658,15 @@ void drawPet() {
 
   if (isNapping()) {
     drawSleepZs(now, petX, petY);
+  }
+  if (isDizzy()) {
+    drawDizzyStars(now, petX, petY);
+  }
+  if (isSurprised()) {
+    drawSurprise(petX, petY);
+  }
+  if (isNeedy() && !isNapping() && !isDizzy() && !isSurprised() && now >= heartAnimationEndsAt) {
+    drawNeedyDots(now, petX, petY);
   }
   drawHearts(now, petX, petY);
 }
@@ -613,8 +762,9 @@ void setLight(int r, int g, int b) {
 
 void updateMoodLight() {
   const uint32_t now = millis();
-
-  if (isNapping()) {
+  if (isDizzy()) {
+    setLight(90, 0, 120);
+  } else if (isNapping()) {
     int glow = 20 + (int)(20*(1 + sinf(now / 600.0f)));
     setLight(0, 0, glow); // oscillating blue breathing
   } else if (now < heartAnimationEndsAt) {
@@ -649,6 +799,7 @@ void setup() {
     mpu.setAccelerometerRange(MPU6050_RANGE_8_G);
     mpu.setGyroRange(MPU6050_RANGE_500_DEG);
     mpu.setFilterBandwidth(MPU6050_BAND_21_HZ);
+    calibrateRest();
   } else {
     Serial.println("MPU6050 not found. The menu will not move until it is connected.");
   }
@@ -665,12 +816,14 @@ void loop() {
   updateMpu();
   updateDht();
   updatePetTimers();
+  updateDecay();
   handleButtons();
 
   if (currentView == MENU_VIEW) {
     updateMenuBall();
   } else {
     checkForShake();
+    checkMotionReactions();
   }
   updateMoodLight();
   drawCurrentView();
