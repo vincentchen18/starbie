@@ -10,7 +10,7 @@
 
 | Week | Tier | Hours logged | Entries |
 | --- | --- | --- | --- |
-| Week 1 | Tier 1 | 6.6h | 7 |
+| Week 1 | Tier 1 | 7.1h | 7 |
 
 ## Contents
 
@@ -20,7 +20,7 @@
 4. [2026-10-09 – instaleld the arduino IDE and its adafruit and required dependencies. programmed in the mood light features to change colour depending on pet needs/emotions. realised a potential issue in the pcb that](#2026-10-09-instaleld-the-arduino-ide-and-its-adafruit-and-re)
 5. [2026-10-10 – finish completely labelling the switches and buttons on the pcb](#2026-10-10-finish-completely-labelling-the-switches-and-butt)
 6. [2026-10-10 – i decorated my pcb using the image converter tool in kicad with a bunch of icons that i drew](#2026-10-10-i-decorated-my-pcb-using-the-image-converter-tool)
-7. [2026-10-11 – got a quote, exported gerbers](#2026-10-11-got-a-quote-exported-gerbers)
+7. [2026-10-11 – got a quote, exported gerbers, wrote the readme](#2026-10-11-got-a-quote-exported-gerbers-wrote-the-readme)
 
 ## Design
 
@@ -98,11 +98,11 @@ i decorated my pcb using the image converter tool in kicad with a bunch of icons
 
 [Timelapse](https://lookout.hackclub.com/api/media/6c146781-3611-41c8-8268-e4b2c4880570/video.mp4)
 
-### 2026-10-11 – got a quote, exported gerbers
+### 2026-10-11 – got a quote, exported gerbers, wrote the readme
 
-**0.08h**
+**0.58h**
 
-got a quote, exported gerbers
+got a quote, exported gerbers, wrote the readme
 
 ![img_9](https://halflife.hackclub-assets.com/hackclub-half-life/sessions/iPQiPBB3YAqPu4RFe838ZhRAebDnRFaL/b080055332d47a5a56016152b3a053481825dffffbd121fa2903b5881f46fcd1.png)
 
