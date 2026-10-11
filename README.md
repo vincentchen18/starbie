@@ -8,6 +8,8 @@ This project was built for Hack Club's hardware program [Half Life](https://half
 
 I will also note that this is based off a tutorial from one of Half Life's organisers, and you can find the tutorial repo [here](https://github.com/SharKingStudios/Starbie). I added some additional features myself, but thank you [SharKingStudios](https://github.com/SharKingStudios/) this tutorial as it was a great starting point.
 
+Additionally, I have also created a storage case for Starbie (although it is irregularly shaped due to how I shaped the printed circuit board)
+
 ## Schematic, PCB and Components
 
 ![Schematic render](Journal/img_5.png)
@@ -41,11 +43,13 @@ purple: dizzy
 
 ## Hardware
 
+A storage case for Starbie has also been included, and you can find the box and lid STEP files in [`3D Models`](3D%20Models/)
+
 Full list in [`BOM.csv`](Starbie/BOM.csv). Gerbers in [`gerbers/`](Starbie/gerbers/).
 
 ## Firmware
 
-Arduino IDE was used to program Starbie. 
+Arduino IDE was used to program Starbie.
 
 ## AI Usage
 
