@@ -13,10 +13,6 @@
 | Part | What it's for | Qty | Unit | Total | Vendor |
 | --- | --- | --- | --- | --- | --- |
 | [10k resistor 1/4W](https://www.aliexpress.com/item/1005011772534173.html) | Pull-up on DHT11 data line | 1 | $3.23 | $3.23 | [AliExpress](https://www.aliexpress.com/item/1005011772534173.html) |
-| [220 ohm resistor 1/4W](https://www.aliexpress.com/item/1005011772534173.html) | Current limiting for RGB LED channels | 3 | $0.00 | $0.00 | [AliExpress](https://www.aliexpress.com/item/1005011772534173.html) |
-| JST-PH 2.0mm 2-pin connector | Battery input (optional) | 1 | $0.00 | $0.00 | — |
-| SPDT slide switch | Battery on/off (optional) | 1 | $0.00 | $0.00 | — |
-| Test point | Battery voltage test pad | 1 | $0.00 | $0.00 | — |
 | [Starbie PCB 2-layer 97.3x140.3mm](https://jlcpcb.com/quote) | Custom star-shaped board | 5 | $2.12 | $10.60 | [JLCPCB](https://jlcpcb.com/quote) |
 | [JLCPCB shipping (Global Standard Direct Line to AU)](https://jlcpcb.com/quote) | Shipping | 1 | $8.52 | $8.52 | [JLCPCB](https://jlcpcb.com/quote) |
 | AliExpress shipping + 10% GST | Shipping + tax | 1 | $6.51 | $6.51 | AliExpress |
