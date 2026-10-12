@@ -20,9 +20,8 @@
 | [DHT11 temperature/humidity sensor (bare 4-pin)](https://www.aliexpress.com/item/1005008818897051.html) | Temp + humidity sensing | 1 | $1.60 | $1.60 | [AliExpress](https://www.aliexpress.com/item/1005008818897051.html) |
 | [MPU-6050 GY-521 module](https://www.aliexpress.com/item/1005008604349573.html) | Accelerometer/gyro for tilt menu + shake/flip/pickup | 1 | $1.03 | $1.03 | [AliExpress](https://www.aliexpress.com/item/1005008604349573.html) |
 | [5mm RGB LED common cathode (pack)](https://www.aliexpress.com/item/32601543257.html) | Mood light | 1 | $2.17 | $2.17 | [AliExpress](https://www.aliexpress.com/item/32601543257.html) |
-| [Resistor kit 1/4W 300pcs (10k + 220 ohm used)](https://www.aliexpress.com/item/1005011772534173.html) | R1 DHT11 pull-up; R2-R4 LED current limiting | 1 | $3.23 | $3.23 | [AliExpress](https://www.aliexpress.com/item/1005011772534173.html) |
-| **Parts subtotal** | — | — | — | **$35.66** | — |
+| **Parts subtotal** | — | — | — | **$32.43** | — |
 | **Tax & shipping** | — | — | — | **$0.00** | — |
-| **Total** | — | — | — | **$35.66** | — |
+| **Total** | — | — | — | **$32.43** | — |
 
-**$5.66 over the tier's funding.** Every tier gives a fixed amount for parts, so this needs cutting back or a higher tier.
+**$2.43 over the tier's funding.** Every tier gives a fixed amount for parts, so this needs cutting back or a higher tier.
