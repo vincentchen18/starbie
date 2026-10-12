@@ -1,6 +1,5 @@
 Reference,Part,Purpose,Footprint,Vendor,Qty,Unit Price (USD),Total (USD),Link,Notes
-PCB,Starbie PCB 2-layer 97.3x140.3mm,Custom star-shaped board,—,JLCPCB,5,2.12,10.60,https://jlcpcb.com/quote,Min order 5
-—,JLCPCB New User PCB coupon,Discount,—,JLCPCB,1,-6.00,-6.00,,Orders over $2 excl. freight
+PCB,Starbie PCB 2-layer 97.3x140.3mm,Custom star-shaped board,—,JLCPCB,5,0.92,4.60,https://jlcpcb.com/quote,Min order 5; $10.60 minus $6 New User PCB coupon
 —,JLCPCB shipping (Global Standard Direct Line to AU),Shipping,—,JLCPCB,1,8.52,8.52,https://jlcpcb.com/quote,
 U1,Seeed Studio XIAO ESP32-C3,Main microcontroller (runs firmware; USB-C power),Imported_Parts:XIAO-ESP32-C6-DIP,AliExpress,1,6.31,6.31,https://www.aliexpress.com/item/1005008791664713.html,
 J1,0.96in 128x64 I2C OLED (SSD1306),Display for the pet and menus,Imported_Parts:Display_128x64_096_I2C,AliExpress,1,2.20,2.20,https://www.aliexpress.com/item/1005006262908701.html,Pin order GND VCC SCL SDA
