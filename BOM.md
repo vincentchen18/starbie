@@ -12,8 +12,6 @@
 
 | Part | What it's for | Qty | Unit | Total | Vendor |
 | --- | --- | --- | --- | --- | --- |
-| [Gateron G Pro 3.0 MX switches](https://www.aliexpress.com/item/1005010559544082.html) | MENU and STATS buttons | 2 | $4.02 | $8.04 | [AliExpress](https://www.aliexpress.com/item/1005010559544082.html) |
-| [5mm RGB LED (common cathode)](https://www.aliexpress.com/item/32601543257.html) | Mood light | 1 | $2.17 | $2.17 | [AliExpress](https://www.aliexpress.com/item/32601543257.html) |
 | [10k resistor 1/4W](https://www.aliexpress.com/item/1005011772534173.html) | Pull-up on DHT11 data line | 1 | $3.23 | $3.23 | [AliExpress](https://www.aliexpress.com/item/1005011772534173.html) |
 | [220 ohm resistor 1/4W](https://www.aliexpress.com/item/1005011772534173.html) | Current limiting for RGB LED channels | 3 | $0.00 | $0.00 | [AliExpress](https://www.aliexpress.com/item/1005011772534173.html) |
 | JST-PH 2.0mm 2-pin connector | Battery input (optional) | 1 | $0.00 | $0.00 | — |
@@ -22,8 +20,8 @@
 | [Starbie PCB 2-layer 97.3x140.3mm](https://jlcpcb.com/quote) | Custom star-shaped board | 5 | $2.12 | $10.60 | [JLCPCB](https://jlcpcb.com/quote) |
 | [JLCPCB shipping (Global Standard Direct Line to AU)](https://jlcpcb.com/quote) | Shipping | 1 | $8.52 | $8.52 | [JLCPCB](https://jlcpcb.com/quote) |
 | AliExpress shipping + 10% GST | Shipping + tax | 1 | $6.51 | $6.51 | AliExpress |
-| **Parts subtotal** | — | — | — | **$39.07** | — |
+| **Parts subtotal** | — | — | — | **$28.86** | — |
 | **Tax & shipping** | — | — | — | **$0.00** | — |
-| **Total** | — | — | — | **$39.07** | — |
+| **Total** | — | — | — | **$28.86** | — |
 
-**$9.07 over the tier's funding.** Every tier gives a fixed amount for parts, so this needs cutting back or a higher tier.
+$1.14 left of the tier's funding.
