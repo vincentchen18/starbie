@@ -10,4 +10,16 @@
 | --- | --- | --- |
 | Week 1 | Tier 1 | $30.00 |
 
-_No parts listed yet._
+| Item | Purpose | Qty | Unit Price (USD) | Total (USD) | Link |
+|---|---|---|---|---|---|
+| Seeed Studio XIAO ESP32-C3 | Microcontroller | 1 | 6.31 | 6.31 | [AliExpress](https://www.aliexpress.com/item/1005008791664713.html) |
+| 0.96" OLED I2C 4-pin SSD1306 (white) | Screen for the pet | 1 | 2.20 | 2.20 | [AliExpress](https://www.aliexpress.com/item/1005006262908701.html) |
+| MPU-6050 GY-521 module | Tilt / shake / flip sensing | 1 | 1.03 | 1.03 | [AliExpress](https://www.aliexpress.com/item/1005008604349573.html) |
+| DHT11 sensor (bare 4-pin) | Temperature + humidity | 1 | 1.60 | 1.60 | [AliExpress](https://www.aliexpress.com/item/1005008818897051.html) |
+| Gateron G Pro 3.0 MX switches (pack) | MENU and STATS buttons (uses 2) | 1 | 4.02 | 4.02 | [AliExpress](https://www.aliexpress.com/item/1005010559544082.html) |
+| 5mm RGB LED, common cathode (pack) | Mood light (uses 1) | 1 | 2.17 | 2.17 | [AliExpress](https://www.aliexpress.com/item/32601543257.html) |
+| Resistor kit 1/4W, 300pcs, 30 values | 220Ω ×3 (LED) + 10kΩ ×1 (DHT11 pull-up) | 1 | 3.23 | 3.23 | [AliExpress](https://www.aliexpress.com/item/1005011772534173.html) |
+| Starbie PCB (2-layer, 97.3×140.3mm) | Main board (min order 5) | 5 | 2.12 | 10.60 | [JLCPCB](https://jlcpcb.com/quote) |
+| JLCPCB shipping | Global Standard Direct Line to Australia | 1 | 8.52 | 8.52 | [JLCPCB](https://jlcpcb.com/quote) |
+| AliExpress shipping + GST | XIAO shipping + 10% Australian GST | 1 | 6.51 | 6.51 | — |
+| **Total** | | | | **46.19** | |

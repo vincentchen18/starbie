@@ -526,7 +526,7 @@
       "netlist": "",
       "plot": "./gerbers/",
       "specctra_dsn": "",
-      "step": "Starbie.step",
+      "step": "../3D Models/Starbie.step",
       "vrml": ""
     },
     "page_layout_descr_file": ""
