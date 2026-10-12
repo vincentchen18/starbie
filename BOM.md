@@ -12,7 +12,6 @@
 
 | Part | What it's for | Qty | Unit | Total | Vendor |
 | --- | --- | --- | --- | --- | --- |
-| [Seeed Studio XIAO ESP32-C3](https://www.aliexpress.com/item/1005008791664713.html) | Main microcontroller (runs firmware; WiFi/BLE; USB-C power) | 1 | $6.31 | $6.31 | [AliExpress](https://www.aliexpress.com/item/1005008791664713.html) |
 | [DHT11 temperature/humidity sensor (bare 4-pin)](https://www.aliexpress.com/item/1005008818897051.html) | Measures room temp + humidity so the pet reacts to hot/cold | 1 | $1.60 | $1.60 | [AliExpress](https://www.aliexpress.com/item/1005008818897051.html) |
 | [0.96in 128x64 I2C OLED (SSD1306)](https://www.aliexpress.com/item/1005006262908701.html) | Display for the pet and menus | 1 | $2.20 | $2.20 | [AliExpress](https://www.aliexpress.com/item/1005006262908701.html) |
 | [MPU-6050 GY-521 module](https://www.aliexpress.com/item/1005008604349573.html) | Accelerometer/gyro for tilt menu + shake/flip/pickup detection | 1 | $1.03 | $1.03 | [AliExpress](https://www.aliexpress.com/item/1005008604349573.html) |
@@ -26,8 +25,8 @@
 | [Starbie PCB 2-layer 97.3x140.3mm](https://jlcpcb.com/quote) | Custom star-shaped board | 5 | $2.12 | $10.60 | [JLCPCB](https://jlcpcb.com/quote) |
 | [JLCPCB shipping (Global Standard Direct Line to AU)](https://jlcpcb.com/quote) | Shipping | 1 | $8.52 | $8.52 | [JLCPCB](https://jlcpcb.com/quote) |
 | AliExpress shipping + 10% GST | Shipping + tax | 1 | $6.51 | $6.51 | AliExpress |
-| **Parts subtotal** | — | — | — | **$50.21** | — |
+| **Parts subtotal** | — | — | — | **$43.90** | — |
 | **Tax & shipping** | — | — | — | **$0.00** | — |
-| **Total** | — | — | — | **$50.21** | — |
+| **Total** | — | — | — | **$43.90** | — |
 
-**$20.21 over the tier's funding.** Every tier gives a fixed amount for parts, so this needs cutting back or a higher tier.
+**$13.90 over the tier's funding.** Every tier gives a fixed amount for parts, so this needs cutting back or a higher tier.
