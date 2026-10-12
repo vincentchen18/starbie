@@ -20,13 +20,10 @@
 | [DHT11 temperature/humidity sensor (bare 4-pin)](https://www.aliexpress.com/item/1005008818897051.html) | Temp + humidity sensing | 1 | $1.60 | $1.60 | [AliExpress](https://www.aliexpress.com/item/1005008818897051.html) |
 | [MPU-6050 GY-521 module](https://www.aliexpress.com/item/1005008604349573.html) | Accelerometer/gyro for tilt menu + shake/flip/pickup | 1 | $1.03 | $1.03 | [AliExpress](https://www.aliexpress.com/item/1005008604349573.html) |
 | [5mm RGB LED common cathode (pack)](https://www.aliexpress.com/item/32601543257.html) | Mood light | 1 | $2.17 | $2.17 | [AliExpress](https://www.aliexpress.com/item/32601543257.html) |
-| [Resistor kit 1/4W 300pcs (10k + 220 ohm used)](https://www.aliexpress.com/item/1005011772534173.html) | R1 DHT11 pull-up; R2-R4 LED current limiting | 1 | $3.23 | $3.23 | [AliExpress](https://www.aliexpress.com/item/1005011772534173.html) |
-| [Gateron G Pro 3.0 MX switches (pack)](https://www.aliexpress.com/item/1005010559544082.html) | MENU and STATS buttons | 1 | $4.02 | $4.02 | [AliExpress](https://www.aliexpress.com/item/1005010559544082.html) |
 | AliExpress shipping + 10% GST | Shipping + tax | 1 | $6.51 | $6.51 | AliExpress |
-| JST-PH 2.0mm 2-pin connector | Battery input (optional) | 1 | $0.00 | $0.00 | — |
 | SPDT slide switch | Battery on/off (optional) | 1 | $0.00 | $0.00 | — |
-| **Parts subtotal** | — | — | — | **$46.19** | — |
+| **Parts subtotal** | — | — | — | **$38.94** | — |
 | **Tax & shipping** | — | — | — | **$0.00** | — |
-| **Total** | — | — | — | **$46.19** | — |
+| **Total** | — | — | — | **$38.94** | — |
 
-**$16.19 over the tier's funding.** Every tier gives a fixed amount for parts, so this needs cutting back or a higher tier.
+**$8.94 over the tier's funding.** Every tier gives a fixed amount for parts, so this needs cutting back or a higher tier.
