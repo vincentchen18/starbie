@@ -12,14 +12,10 @@
 
 | Part | What it's for | Qty | Unit | Total | Vendor |
 | --- | --- | --- | --- | --- | --- |
-| [Starbie PCB 2-layer 97.3x140.3mm](https://jlcpcb.com/quote) | Custom star-shaped board | 5 | $2.12 | $10.60 | [JLCPCB](https://jlcpcb.com/quote) |
-| JLCPCB New User PCB coupon | Discount | 1 | $0.00 | $0.00 | JLCPCB |
-| [JLCPCB shipping (Global Standard Direct Line to AU)](https://jlcpcb.com/quote) | Shipping | 1 | $8.52 | $8.52 | [JLCPCB](https://jlcpcb.com/quote) |
-| [Seeed Studio XIAO ESP32-C3](https://www.aliexpress.com/item/1005008791664713.html) | Main microcontroller (runs firmware; USB-C power) | 1 | $6.31 | $6.31 | [AliExpress](https://www.aliexpress.com/item/1005008791664713.html) |
 | [5mm RGB LED common cathode (pack)](https://www.aliexpress.com/item/32601543257.html) | Mood light | 1 | $2.17 | $2.17 | [AliExpress](https://www.aliexpress.com/item/32601543257.html) |
 | AliExpress shipping + 10% GST | Shipping + tax | 1 | $6.51 | $6.51 | AliExpress |
-| **Parts subtotal** | — | — | — | **$34.11** | — |
+| **Parts subtotal** | — | — | — | **$8.68** | — |
 | **Tax & shipping** | — | — | — | **$0.00** | — |
-| **Total** | — | — | — | **$34.11** | — |
+| **Total** | — | — | — | **$8.68** | — |
 
-**$4.11 over the tier's funding.** Every tier gives a fixed amount for parts, so this needs cutting back or a higher tier.
+$21.32 left of the tier's funding.
