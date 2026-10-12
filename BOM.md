@@ -25,7 +25,6 @@
 | AliExpress shipping + 10% GST | Shipping + tax | 1 | $6.51 | $6.51 | AliExpress |
 | JST-PH 2.0mm 2-pin connector | Battery input (optional) | 1 | $0.00 | $0.00 | — |
 | SPDT slide switch | Battery on/off (optional) | 1 | $0.00 | $0.00 | — |
-| Test point | Battery voltage test pad | 1 | $0.00 | $0.00 | — |
 | **Parts subtotal** | — | — | — | **$46.19** | — |
 | **Tax & shipping** | — | — | — | **$0.00** | — |
 | **Total** | — | — | — | **$46.19** | — |
