@@ -54,3 +54,30 @@ Arduino IDE was used to program Starbie.
 ## AI Usage
 
 AI was not used in any way for this project besides as a guide to help me learn to use KiCad
+
+## Bill of Materials
+
+### Grant-funded ($30 tier 1)
+
+| Item | Purpose | Qty | Unit (USD) | Total (USD) | Link |
+|---|---|---|---|---|---|
+| Starbie PCB (2-layer, 97.3×140.3mm) | Custom star-shaped board | 5 | 2.12 | 10.60 | [JLCPCB](https://jlcpcb.com/quote) |
+| JLCPCB New User PCB coupon | Discount | 1 | -6.00 | -6.00 | — |
+| JLCPCB shipping (Global Standard Direct Line → AU) | Shipping | 1 | 8.52 | 8.52 | [JLCPCB](https://jlcpcb.com/quote) |
+| Seeed Studio XIAO ESP32-C3 | Main microcontroller | 1 | 6.31 | 6.31 | [AliExpress](https://www.aliexpress.com/item/1005008791664713.html) |
+| 0.96" 128×64 I2C OLED (SSD1306) | Display | 1 | 2.20 | 2.20 | [AliExpress](https://www.aliexpress.com/item/1005006262908701.html) |
+| DHT11 (bare 4-pin) | Temp + humidity sensor | 1 | 1.60 | 1.60 | [AliExpress](https://www.aliexpress.com/item/1005008818897051.html) |
+| MPU-6050 (GY-521) | Accelerometer/gyro for tilt + shake | 1 | 1.03 | 1.03 | [AliExpress](https://www.aliexpress.com/item/1005008604349573.html) |
+| 5mm RGB LED, common cathode (pack) | Mood light | 1 | 2.17 | 2.17 | [AliExpress](https://www.aliexpress.com/item/32601543257.html) |
+| Resistor kit, 1/4W 300pcs (10k + 220Ω used) | DHT11 pull-up + LED current limiting | 1 | 3.23 | 3.23 | [AliExpress](https://www.aliexpress.com/item/1005011772534173.html) |
+| **Grant total** | | | | **29.66** | |
+
+### Paid out of pocket
+
+| Item | Purpose | Qty | Unit (USD) | Total (USD) | Link |
+|---|---|---|---|---|---|
+| Gateron G Pro 3.0 MX switches (pack) | MENU + STATS buttons | 1 | 4.02 | 4.02 | [AliExpress](https://www.aliexpress.com/item/1005010559544082.html) |
+| AliExpress shipping + 10% GST | Shipping + tax | 1 | 6.51 | 6.51 | — |
+| **Out-of-pocket total** | | | | **10.53** | |
+
+**Project total: $40.19**
