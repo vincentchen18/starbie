@@ -12,9 +12,6 @@
 
 | Part | What it's for | Qty | Unit | Total | Vendor |
 | --- | --- | --- | --- | --- | --- |
-| [DHT11 temperature/humidity sensor (bare 4-pin)](https://www.aliexpress.com/item/1005008818897051.html) | Measures room temp + humidity so the pet reacts to hot/cold | 1 | $1.60 | $1.60 | [AliExpress](https://www.aliexpress.com/item/1005008818897051.html) |
-| [0.96in 128x64 I2C OLED (SSD1306)](https://www.aliexpress.com/item/1005006262908701.html) | Display for the pet and menus | 1 | $2.20 | $2.20 | [AliExpress](https://www.aliexpress.com/item/1005006262908701.html) |
-| [MPU-6050 GY-521 module](https://www.aliexpress.com/item/1005008604349573.html) | Accelerometer/gyro for tilt menu + shake/flip/pickup detection | 1 | $1.03 | $1.03 | [AliExpress](https://www.aliexpress.com/item/1005008604349573.html) |
 | [Gateron G Pro 3.0 MX switches](https://www.aliexpress.com/item/1005010559544082.html) | MENU and STATS buttons | 2 | $4.02 | $8.04 | [AliExpress](https://www.aliexpress.com/item/1005010559544082.html) |
 | [5mm RGB LED (common cathode)](https://www.aliexpress.com/item/32601543257.html) | Mood light | 1 | $2.17 | $2.17 | [AliExpress](https://www.aliexpress.com/item/32601543257.html) |
 | [10k resistor 1/4W](https://www.aliexpress.com/item/1005011772534173.html) | Pull-up on DHT11 data line | 1 | $3.23 | $3.23 | [AliExpress](https://www.aliexpress.com/item/1005011772534173.html) |
@@ -25,8 +22,8 @@
 | [Starbie PCB 2-layer 97.3x140.3mm](https://jlcpcb.com/quote) | Custom star-shaped board | 5 | $2.12 | $10.60 | [JLCPCB](https://jlcpcb.com/quote) |
 | [JLCPCB shipping (Global Standard Direct Line to AU)](https://jlcpcb.com/quote) | Shipping | 1 | $8.52 | $8.52 | [JLCPCB](https://jlcpcb.com/quote) |
 | AliExpress shipping + 10% GST | Shipping + tax | 1 | $6.51 | $6.51 | AliExpress |
-| **Parts subtotal** | — | — | — | **$43.90** | — |
+| **Parts subtotal** | — | — | — | **$39.07** | — |
 | **Tax & shipping** | — | — | — | **$0.00** | — |
-| **Total** | — | — | — | **$43.90** | — |
+| **Total** | — | — | — | **$39.07** | — |
 
-**$13.90 over the tier's funding.** Every tier gives a fixed amount for parts, so this needs cutting back or a higher tier.
+**$9.07 over the tier's funding.** Every tier gives a fixed amount for parts, so this needs cutting back or a higher tier.
