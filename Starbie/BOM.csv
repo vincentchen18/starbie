@@ -1,18 +1,10 @@
-Reference,Funding,Part,Purpose,Footprint,Vendor,Qty,Unit Price (USD),Total (USD),Link,Notes
-PCB,Grant,Starbie PCB 2-layer 97.3x140.3mm,Custom star-shaped board,—,JLCPCB,5,2.12,10.60,https://jlcpcb.com/quote,Min order 5
-—,Grant,JLCPCB New User PCB coupon,Discount,—,JLCPCB,1,-6.00,-6.00,,Orders over $2 excl. freight
-—,Grant,JLCPCB shipping (Global Standard Direct Line to AU),Shipping,—,JLCPCB,1,8.52,8.52,https://jlcpcb.com/quote,
-U1,Grant,Seeed Studio XIAO ESP32-C3,Main microcontroller (runs firmware; USB-C power),Imported_Parts:XIAO-ESP32-C6-DIP,AliExpress,1,6.31,6.31,https://www.aliexpress.com/item/1005008791664713.html,
-J1,Grant,0.96in 128x64 I2C OLED (SSD1306),Display for the pet and menus,Imported_Parts:Display_128x64_096_I2C,AliExpress,1,2.20,2.20,https://www.aliexpress.com/item/1005006262908701.html,Pin order GND VCC SCL SDA
-U2,Grant,DHT11 temperature/humidity sensor (bare 4-pin),Temp + humidity sensing,Sensor:Aosong_DHT11_5.5x12.0_P2.54mm,AliExpress,1,1.60,1.60,https://www.aliexpress.com/item/1005008818897051.html,Variant: DHT11 Chip
-J2,Grant,MPU-6050 GY-521 module,Accelerometer/gyro for tilt menu + shake/flip/pickup,Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical,AliExpress,1,1.03,1.03,https://www.aliexpress.com/item/1005008604349573.html,Header pins included
-D1,Grant,5mm RGB LED common cathode (pack),Mood light,LED_THT:LED_D5.0mm-4_RGB_Staggered_Pins,AliExpress,1,2.17,2.17,https://www.aliexpress.com/item/32601543257.html,Pack; 1 used; Common Cathode variant
-R1-R4,Grant,Resistor kit 1/4W 300pcs (10k + 220 ohm used),R1 DHT11 pull-up; R2-R4 LED current limiting,Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal,AliExpress,1,3.23,3.23,https://www.aliexpress.com/item/1005011772534173.html,1x 10k + 3x 220 ohm from kit
-SW1-SW2,Out of pocket,Gateron G Pro 3.0 MX switches (pack),MENU and STATS buttons,Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB,AliExpress,1,4.02,4.02,https://www.aliexpress.com/item/1005010559544082.html,Pack; 2 used
-—,Out of pocket,AliExpress shipping + 10% GST,Shipping + tax,—,AliExpress,1,6.51,6.51,,
-J3,—,JST-PH 2.0mm 2-pin connector,Battery input (optional),Connector_JST:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical,—,1,0.00,0.00,,DNP - running on USB power
-SW3,—,SPDT slide switch,Battery on/off (optional),Button_Switch_THT:SW_Slide_SPDT_Straight_CK_OS102011MS2Q,—,1,0.00,0.00,,DNP - running on USB power
-TP1,—,Test point,Battery voltage test pad,TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm,—,1,0.00,0.00,,Bare pad on PCB - no part needed
-GRANT TOTAL,,,,,,,,29.66,,
-OUT OF POCKET TOTAL,,,,,,,,10.53,,
-PROJECT TOTAL,,,,,,,,40.19,,
+Reference,Part,Purpose,Footprint,Vendor,Qty,Unit Price (USD),Total (USD),Link,Notes
+PCB,Starbie PCB 2-layer 97.3x140.3mm,Custom star-shaped board,—,JLCPCB,5,2.12,10.60,https://jlcpcb.com/quote,Min order 5
+—,JLCPCB New User PCB coupon,Discount,—,JLCPCB,1,-6.00,-6.00,,Orders over $2 excl. freight
+—,JLCPCB shipping (Global Standard Direct Line to AU),Shipping,—,JLCPCB,1,8.52,8.52,https://jlcpcb.com/quote,
+U1,Seeed Studio XIAO ESP32-C3,Main microcontroller (runs firmware; USB-C power),Imported_Parts:XIAO-ESP32-C6-DIP,AliExpress,1,6.31,6.31,https://www.aliexpress.com/item/1005008791664713.html,
+J1,0.96in 128x64 I2C OLED (SSD1306),Display for the pet and menus,Imported_Parts:Display_128x64_096_I2C,AliExpress,1,2.20,2.20,https://www.aliexpress.com/item/1005006262908701.html,Pin order GND VCC SCL SDA
+U2,DHT11 temperature/humidity sensor (bare 4-pin),Temp + humidity sensing,Sensor:Aosong_DHT11_5.5x12.0_P2.54mm,AliExpress,1,1.60,1.60,https://www.aliexpress.com/item/1005008818897051.html,Variant: DHT11 Chip
+J2,MPU-6050 GY-521 module,Accelerometer/gyro for tilt menu + shake/flip/pickup,Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical,AliExpress,1,1.03,1.03,https://www.aliexpress.com/item/1005008604349573.html,Header pins included
+D1,5mm RGB LED common cathode (pack),Mood light,LED_THT:LED_D5.0mm-4_RGB_Staggered_Pins,AliExpress,1,2.17,2.17,https://www.aliexpress.com/item/32601543257.html,Pack; 1 used; Common Cathode variant
+R1-R4,Resistor kit 1/4W 300pcs (10k + 220 ohm used),R1 DHT11 pull-up; R2-R4 LED current limiting,Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal,AliExpress,1,3.23,3.23,https://www.aliexpress.com/item/1005011772534173.html,1x 10k + 3x 220 ohm from kit
