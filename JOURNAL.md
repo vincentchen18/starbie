@@ -18,7 +18,7 @@
 2. [2026-10-08: fixed an assignment error in the schematic, routed most of the pcb and debugged around 9 disconnection errors, arranged the componenets in the pcb. also drew on some smiley faces to decorate the pcb o](#2026-10-08-fixed-an-assignment-error-in-the-schematic-routed)
 3. [2026-10-08: ![img_4](https://halflife.hackclub-assets.com/sessions/iPQiPBB3YAqPu4RFe838ZhRAebDnRFaL/f9186e5f4725ca9face2a51fd93ed5eae7b8c85500c3b0aa72dac24ee7cc9ef7.png)](#2026-10-08-img4httpshalflifehackclub-assetscomsessionsipqipb)
 4. [2026-10-09: instaleld the arduino IDE and its adafruit and required dependencies. programmed in the mood light features to change colour depending on pet needs/emotions, using some stat thresholds. then i realise](#2026-10-09-instaleld-the-arduino-ide-and-its-adafruit-and-re)
-5. [2026-10-10: finish completely labelling the switches and buttons on the pcb](#2026-10-10-finish-completely-labelling-the-switches-and-butt)
+5. [2026-10-10: finish completely labelling the switches and buttons on the pcb. ran a little bit of wiring, and also labelled the starbie buttons on F.silkscreen.](#2026-10-10-finish-completely-labelling-the-switches-and-butt)
 6. [2026-10-10: i decorated my pcb using the image converter tool in kicad with a bunch of icons that i drew](#2026-10-10-i-decorated-my-pcb-using-the-image-converter-tool)
 7. [2026-10-11: got a quote, exported gerbers, wrote the readme](#2026-10-11-got-a-quote-exported-gerbers-wrote-the-readme)
 8. [2026-10-11: more firmware updates :)). make pet dizzy and flash purple light if dizzy. added an additional functionality that starbie's stats start decaying after 5 minutes of being neglected.](#2026-10-11-more-firmware-updates-make-pet-dizzy-and-flash-pu)
@@ -85,11 +85,11 @@ instaleld the arduino IDE and its adafruit and required dependencies. programmed
 
 [Timelapse](https://lookout.hackclub.com/api/media/b0837a10-126a-48b9-8840-80096c12c5b5/video.mp4)
 
-### 2026-10-10: finish completely labelling the switches and buttons on the pcb
+### 2026-10-10: finish completely labelling the switches and buttons on the pcb. ran a little bit of wiring, and also labelled the starbie buttons on F.silkscreen.
 
 **0.3h**
 
-finish completely labelling the switches and buttons on the pcb
+finish completely labelling the switches and buttons on the pcb. ran a little bit of wiring, and also labelled the starbie buttons on F.silkscreen.
 
 [Timelapse](https://lookout.hackclub.com/api/media/e71a27ef-5f4d-427f-ad5a-3ed30d044952/video.mp4)
 
