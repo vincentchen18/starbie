@@ -137,7 +137,7 @@ I used Onshape to create a CAD for a case that would hold the starbie, with corn
 
 **3.23h**
 
-i modeled a lid for my starbie case, leaving an additional extrusion for the lid to fit on better, with an additional 1mm tolerance so the lid isn't too tight. I also used onshape's revolve to create a handle that has an awfully close resemblance to a pot lid's handle, but whatever.
+i modeled a lid for my starbie case, leaving an additional extrusion for the lid to fit on better, with an additional 1mm tolerance so the lid isn't too tight. I also used onshape's revolve to create a handle that has an awfully close resemblance to a pot lid's handle, but whatever. I also spent a REALLY REALLY long time searching for the correct parts that matched the specification, and making modifications to the lid, and then realised I wasn't recording :CCC, hence the journalling time
 
 ![img_13](https://halflife.hackclub-assets.com/sessions/iPQiPBB3YAqPu4RFe838ZhRAebDnRFaL/acf37b4adf02ae5a8e5017756c5226065dedd88ba99dc3b22b20478862e2f5a6.png)
 
