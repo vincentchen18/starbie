@@ -20,7 +20,7 @@
 4. [2026-10-09: instaleld the arduino IDE and its adafruit and required dependencies. programmed in the mood light features to change colour depending on pet needs/emotions, using some stat thresholds. then i realise](#2026-10-09-instaleld-the-arduino-ide-and-its-adafruit-and-re)
 5. [2026-10-10: finish completely labelling the switches and buttons on the pcb. ran a little bit of wiring, and also labelled the starbie buttons on F.silkscreen.](#2026-10-10-finish-completely-labelling-the-switches-and-butt)
 6. [2026-10-10: i decorated my pcb using the image converter tool in kicad with a bunch of icons that i drew.  I made a star, put the project's qr code on it (cus why not lol) and also drew some smiley faces out of s](#2026-10-10-i-decorated-my-pcb-using-the-image-converter-tool)
-7. [2026-10-11: got a quote, exported gerbers, wrote the readme](#2026-10-11-got-a-quote-exported-gerbers-wrote-the-readme)
+7. [2026-10-11: I got a quote for my PCB using exported gerbers in JLCPCB, and then I also spent 0.5 hours writing up a readme for the project.](#2026-10-11-i-got-a-quote-for-my-pcb-using-exported-gerbers-i)
 8. [2026-10-11: more firmware updates :)). make pet dizzy and flash purple light if dizzy. added an additional functionality that starbie's stats start decaying after 5 minutes of being neglected.](#2026-10-11-more-firmware-updates-make-pet-dizzy-and-flash-pu)
 9. [2026-10-11: I used Onshape to create a CAD for a case that would hold the starbie, with corner supports so that centeral electrical components have space. Additionally, I also accounted for picking up, so I penta](#2026-10-11-i-used-onshape-to-create-a-cad-for-a-case-that-wo)
 10. [2026-10-11: i modeled a lid for my starbie case, leaving an additional extrusion for the lid to fit on better, with an additional 1mm tolerance so the lid isn't too tight. I also used onshape's revolve to create](#2026-10-11-i-modeled-a-lid-for-my-starbie-case-leaving-an-ad)
@@ -101,11 +101,11 @@ i decorated my pcb using the image converter tool in kicad with a bunch of icons
 
 [Timelapse](https://lookout.hackclub.com/api/media/6c146781-3611-41c8-8268-e4b2c4880570/video.mp4)
 
-### 2026-10-11: got a quote, exported gerbers, wrote the readme
+### 2026-10-11: I got a quote for my PCB using exported gerbers in JLCPCB, and then I also spent 0.5 hours writing up a readme for the project.
 
 **0.58h**
 
-got a quote, exported gerbers, wrote the readme
+I got a quote for my PCB using exported gerbers in JLCPCB, and then I also spent 0.5 hours writing up a readme for the project.
 
 ![img_9](https://halflife.hackclub-assets.com/sessions/iPQiPBB3YAqPu4RFe838ZhRAebDnRFaL/b080055332d47a5a56016152b3a053481825dffffbd121fa2903b5881f46fcd1.png)
 
