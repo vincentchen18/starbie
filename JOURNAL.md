@@ -16,7 +16,7 @@
 
 1. [2026-10-08: ![img](https://halflife.hackclub-assets.com/sessions/iPQiPBB3YAqPu4RFe838ZhRAebDnRFaL/44008bef5d4b60166645498d30f997ff86154a471fa440630878371ad44ff05c.png)](#2026-10-08-imghttpshalflifehackclub-assetscomsessionsipqipbb)
 2. [2026-10-08: fixed an assignment error in the schematic, routed most of the pcb and debugged around 9 disconnection errors, arranged the componenets in the pcb. also drew on some smiley faces to decorate the pcb o](#2026-10-08-fixed-an-assignment-error-in-the-schematic-routed)
-3. [2026-10-08: ![img_4](https://halflife.hackclub-assets.com/hackclub-half-life/sessions/iPQiPBB3YAqPu4RFe838ZhRAebDnRFaL/f9186e5f4725ca9face2a51fd93ed5eae7b8c85500c3b0aa72dac24ee7cc9ef7.png)](#2026-10-08-img4httpshalflifehackclub-assetscomhackclub-half-)
+3. [2026-10-08: ![img_4](https://halflife.hackclub-assets.com/sessions/iPQiPBB3YAqPu4RFe838ZhRAebDnRFaL/f9186e5f4725ca9face2a51fd93ed5eae7b8c85500c3b0aa72dac24ee7cc9ef7.png)](#2026-10-08-img4httpshalflifehackclub-assetscomsessionsipqipb)
 4. [2026-10-09: instaleld the arduino IDE and its adafruit and required dependencies. programmed in the mood light features to change colour depending on pet needs/emotions. realised a potential issue in the pcb that](#2026-10-09-instaleld-the-arduino-ide-and-its-adafruit-and-re)
 5. [2026-10-10: finish completely labelling the switches and buttons on the pcb](#2026-10-10-finish-completely-labelling-the-switches-and-butt)
 6. [2026-10-10: i decorated my pcb using the image converter tool in kicad with a bunch of icons that i drew](#2026-10-10-i-decorated-my-pcb-using-the-image-converter-tool)
@@ -53,7 +53,7 @@ fixed an assignment error in the schematic, routed most of the pcb and debugged 
 
 [Timelapse](https://lookout.hackclub.com/api/media/db29ec1c-e77f-40d6-b7ab-53872e7cf25d/video.mp4)
 
-### 2026-10-08: ![img_4](https://halflife.hackclub-assets.com/hackclub-half-life/sessions/iPQiPBB3YAqPu4RFe838ZhRAebDnRFaL/f9186e5f4725ca9face2a51fd93ed5eae7b8c85500c3b0aa72dac24ee7cc9ef7.png)
+### 2026-10-08: ![img_4](https://halflife.hackclub-assets.com/sessions/iPQiPBB3YAqPu4RFe838ZhRAebDnRFaL/f9186e5f4725ca9face2a51fd93ed5eae7b8c85500c3b0aa72dac24ee7cc9ef7.png)
 
 **1.47h**
 
