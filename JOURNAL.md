@@ -125,7 +125,7 @@ i made some more firmware updates :)). i programmed the pet to become dizzy if t
 
 **1.58h**
 
-I used Onshape to create a CAD for a case that would hold the starbie, with corner supports so that centeral electrical components have space. Additionally, I also accounted for picking up, so I pentagonally shaped the case so that it wouldn't be like taking pringles out of a pringles can.
+I used Onshape to create a CAD for a case that would hold the starbie, with corner supports so that centeral electrical components have space. Additionally, I also accounted for picking up, so I pentagonally shaped the case so that it wouldn't be like taking pringles out of a pringles can. also added a bit of tolerance so that starbie could fit inside without being a friction fit or being on an angle.
 
 ![img_11](https://halflife.hackclub-assets.com/sessions/iPQiPBB3YAqPu4RFe838ZhRAebDnRFaL/1d596557587344b1204e8aad9f72c42f21c0fbcfd1b23ca09672de6a201c00d3.png)
 
