@@ -21,7 +21,7 @@
 5. [2026-10-10: finish completely labelling the switches and buttons on the pcb. ran a little bit of wiring, and also labelled the starbie buttons on F.silkscreen.](#2026-10-10-finish-completely-labelling-the-switches-and-butt)
 6. [2026-10-10: i decorated my pcb using the image converter tool in kicad with a bunch of icons that i drew.  I made a star, put the project's qr code on it (cus why not lol) and also drew some smiley faces out of s](#2026-10-10-i-decorated-my-pcb-using-the-image-converter-tool)
 7. [2026-10-11: I got a quote for my PCB using exported gerbers in JLCPCB, and then I also spent 0.5 hours writing up a readme for the project.](#2026-10-11-i-got-a-quote-for-my-pcb-using-exported-gerbers-i)
-8. [2026-10-11: more firmware updates :)). make pet dizzy and flash purple light if dizzy. added an additional functionality that starbie's stats start decaying after 5 minutes of being neglected.](#2026-10-11-more-firmware-updates-make-pet-dizzy-and-flash-pu)
+8. [2026-10-11: i made some more firmware updates :)). i programmed the pet to become dizzy if the pcb is flipped or moved with sudden motion , and flash purple light if dizzy. i also implemented additional functiona](#2026-10-11-i-made-some-more-firmware-updates-i-programmed-th)
 9. [2026-10-11: I used Onshape to create a CAD for a case that would hold the starbie, with corner supports so that centeral electrical components have space. Additionally, I also accounted for picking up, so I penta](#2026-10-11-i-used-onshape-to-create-a-cad-for-a-case-that-wo)
 10. [2026-10-11: i modeled a lid for my starbie case, leaving an additional extrusion for the lid to fit on better, with an additional 1mm tolerance so the lid isn't too tight. I also used onshape's revolve to create](#2026-10-11-i-modeled-a-lid-for-my-starbie-case-leaving-an-ad)
 
@@ -113,11 +113,11 @@ I got a quote for my PCB using exported gerbers in JLCPCB, and then I also spent
 
 [Timelapse](https://lookout.hackclub.com/api/media/f628c25c-546c-4799-a1e6-cf247a014ead/video.mp4)
 
-### 2026-10-11: more firmware updates :)). make pet dizzy and flash purple light if dizzy. added an additional functionality that starbie's stats start decaying after 5 minutes of being neglected.
+### 2026-10-11: i made some more firmware updates :)). i programmed the pet to become dizzy if the pcb is flipped or moved with sudden motion , and flash purple light if dizzy. i also implemented additional functiona
 
 **1.1h**
 
-more firmware updates :)). make pet dizzy and flash purple light if dizzy. added an additional functionality that starbie's stats start decaying after 5 minutes of being neglected.
+i made some more firmware updates :)). i programmed the pet to become dizzy if the pcb is flipped or moved with sudden motion , and flash purple light if dizzy. i also implemented additional functionalities that made starbie's stats start decaying after 5 minutes of being neglected or not interacted with.
 
 [Timelapse](https://lookout.hackclub.com/api/media/cafa6152-9122-48db-99a5-acf4f63acd44/video.mp4)
 
