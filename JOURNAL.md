@@ -19,7 +19,7 @@
 3. [2026-10-08: ![img_4](https://halflife.hackclub-assets.com/sessions/iPQiPBB3YAqPu4RFe838ZhRAebDnRFaL/f9186e5f4725ca9face2a51fd93ed5eae7b8c85500c3b0aa72dac24ee7cc9ef7.png)](#2026-10-08-img4httpshalflifehackclub-assetscomsessionsipqipb)
 4. [2026-10-09: instaleld the arduino IDE and its adafruit and required dependencies. programmed in the mood light features to change colour depending on pet needs/emotions, using some stat thresholds. then i realise](#2026-10-09-instaleld-the-arduino-ide-and-its-adafruit-and-re)
 5. [2026-10-10: finish completely labelling the switches and buttons on the pcb. ran a little bit of wiring, and also labelled the starbie buttons on F.silkscreen.](#2026-10-10-finish-completely-labelling-the-switches-and-butt)
-6. [2026-10-10: i decorated my pcb using the image converter tool in kicad with a bunch of icons that i drew](#2026-10-10-i-decorated-my-pcb-using-the-image-converter-tool)
+6. [2026-10-10: i decorated my pcb using the image converter tool in kicad with a bunch of icons that i drew.  I made a star, put the project's qr code on it (cus why not lol) and also drew some smiley faces out of s](#2026-10-10-i-decorated-my-pcb-using-the-image-converter-tool)
 7. [2026-10-11: got a quote, exported gerbers, wrote the readme](#2026-10-11-got-a-quote-exported-gerbers-wrote-the-readme)
 8. [2026-10-11: more firmware updates :)). make pet dizzy and flash purple light if dizzy. added an additional functionality that starbie's stats start decaying after 5 minutes of being neglected.](#2026-10-11-more-firmware-updates-make-pet-dizzy-and-flash-pu)
 9. [2026-10-11: I used Onshape to create a CAD for a case that would hold the starbie, with corner supports so that centeral electrical components have space. Additionally, I also accounted for picking up, so I penta](#2026-10-11-i-used-onshape-to-create-a-cad-for-a-case-that-wo)
@@ -93,11 +93,11 @@ finish completely labelling the switches and buttons on the pcb. ran a little bi
 
 [Timelapse](https://lookout.hackclub.com/api/media/e71a27ef-5f4d-427f-ad5a-3ed30d044952/video.mp4)
 
-### 2026-10-10: i decorated my pcb using the image converter tool in kicad with a bunch of icons that i drew
+### 2026-10-10: i decorated my pcb using the image converter tool in kicad with a bunch of icons that i drew.  I made a star, put the project's qr code on it (cus why not lol) and also drew some smiley faces out of s
 
 **1.2h**
 
-i decorated my pcb using the image converter tool in kicad with a bunch of icons that i drew
+i decorated my pcb using the image converter tool in kicad with a bunch of icons that i drew.  I made a star, put the project's qr code on it (cus why not lol) and also drew some smiley faces out of silkscreen geomtery, since FOR SOME REASON THE SILKSCREEN BULGES EVERYTHING
 
 [Timelapse](https://lookout.hackclub.com/api/media/6c146781-3611-41c8-8268-e4b2c4880570/video.mp4)
 
