@@ -17,7 +17,7 @@
 1. [2026-10-08: ![img](https://halflife.hackclub-assets.com/sessions/iPQiPBB3YAqPu4RFe838ZhRAebDnRFaL/44008bef5d4b60166645498d30f997ff86154a471fa440630878371ad44ff05c.png)](#2026-10-08-imghttpshalflifehackclub-assetscomsessionsipqipbb)
 2. [2026-10-08: fixed an assignment error in the schematic, routed most of the pcb and debugged around 9 disconnection errors, arranged the componenets in the pcb. also drew on some smiley faces to decorate the pcb o](#2026-10-08-fixed-an-assignment-error-in-the-schematic-routed)
 3. [2026-10-08: ![img_4](https://halflife.hackclub-assets.com/sessions/iPQiPBB3YAqPu4RFe838ZhRAebDnRFaL/f9186e5f4725ca9face2a51fd93ed5eae7b8c85500c3b0aa72dac24ee7cc9ef7.png)](#2026-10-08-img4httpshalflifehackclub-assetscomsessionsipqipb)
-4. [2026-10-09: instaleld the arduino IDE and its adafruit and required dependencies. programmed in the mood light features to change colour depending on pet needs/emotions. realised a potential issue in the pcb that](#2026-10-09-instaleld-the-arduino-ide-and-its-adafruit-and-re)
+4. [2026-10-09: instaleld the arduino IDE and its adafruit and required dependencies. programmed in the mood light features to change colour depending on pet needs/emotions, using some stat thresholds. then i realise](#2026-10-09-instaleld-the-arduino-ide-and-its-adafruit-and-re)
 5. [2026-10-10: finish completely labelling the switches and buttons on the pcb](#2026-10-10-finish-completely-labelling-the-switches-and-butt)
 6. [2026-10-10: i decorated my pcb using the image converter tool in kicad with a bunch of icons that i drew](#2026-10-10-i-decorated-my-pcb-using-the-image-converter-tool)
 7. [2026-10-11: got a quote, exported gerbers, wrote the readme](#2026-10-11-got-a-quote-exported-gerbers-wrote-the-readme)
@@ -69,11 +69,11 @@ started making my own additions on top of the tutorial,so i began making switche
 
 [Timelapse](https://lookout.hackclub.com/api/media/67d17640-05b7-416e-a1fa-1f9a58a8a9c0/video.mp4)
 
-### 2026-10-09: instaleld the arduino IDE and its adafruit and required dependencies. programmed in the mood light features to change colour depending on pet needs/emotions. realised a potential issue in the pcb that
+### 2026-10-09: instaleld the arduino IDE and its adafruit and required dependencies. programmed in the mood light features to change colour depending on pet needs/emotions, using some stat thresholds. then i realise
 
 **0.55h**
 
-instaleld the arduino IDE and its adafruit and required dependencies. programmed in the mood light features to change colour depending on pet needs/emotions. realised a potential issue in the pcb that could stop the circuit board from booting. also fixed the porting error in the schematic and PCB editor
+instaleld the arduino IDE and its adafruit and required dependencies. programmed in the mood light features to change colour depending on pet needs/emotions, using some stat thresholds. then i realised a potential issue in the pcb that could stop the circuit board from booting, so i rearranged accordingly in the PCB. also fixed the porting error in the schematic and PCB editor
 
 ![img_7](https://halflife.hackclub-assets.com/sessions/iPQiPBB3YAqPu4RFe838ZhRAebDnRFaL/8d16e1a6444ea3d88ee05f05628d87f4ea23f15a99cd3d17e602babd33546387.png)
 
