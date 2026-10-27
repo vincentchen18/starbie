@@ -1,0 +1,10 @@
+Item,Qty,Supplier,Cost/item,Total Cost,link
+Starbie PCB 2-layer 97.3x140.3mm,5,JLCPCB,$0.92,$4.60,https://jlcpcb.com/quote
+JLCPCB shipping (Global Standard Direct Line to AU),1,JLCPCB,$8.52,$8.52,https://jlcpcb.com/quote
+Seeed Studio XIAO ESP32-C3,1,AliExpress,$6.31,$6.31,https://www.aliexpress.com/item/1005008791664713.html
+0.96in 128x64 I2C OLED (SSD1306),1,AliExpress,$2.20,$2.20,https://www.aliexpress.com/item/1005006262908701.html
+DHT11 temperature/humidity sensor (bare 4-pin),1,AliExpress,$1.60,$1.60,https://www.aliexpress.com/item/1005008818897051.html
+MPU-6050 GY-521 module,1,AliExpress,$1.03,$1.03,https://www.aliexpress.com/item/1005008604349573.html
+5mm RGB LED common cathode (pack),1,AliExpress,$2.17,$2.17,https://www.aliexpress.com/item/32601543257.html
+Resistor kit 1/4W 300pcs (10k + 220 ohm used),1,AliExpress,$3.23,$3.23,https://www.aliexpress.com/item/1005011772534173.html
+Estimated total shipping,1,,,$0.00,
