@@ -43,7 +43,7 @@ I installed KiCad and set it up, installing libraries, and also completed the ma
 
 **1.5h**
 
-fixed an assignment error in the schematic, routed most of the pcb and debugged around 9 disconnection errors, arranged the componenets in the pcb. also drew on some smiley faces to decorate the pcb on F.silkscreen. took way too long figuring out a bunch of the disconnection errors.
+fixed an assignment error in the schematic, routed most of the pcb and debugged around 9 disconnection errors, arranged the componenets in the pcb. also drew on some smiley faces to decorate the pcb on F.silkscreen. took way too long figuring out a bunch of the disconnection errors. added some time for some problem research, and also lapse bugged out for a big so i couldnt record like 20 minutes .
 
 ![img_2](https://halflife.hackclub-assets.com/sessions/iPQiPBB3YAqPu4RFe838ZhRAebDnRFaL/fe6a940987bacb270c4972a66b132a92c6d661deea7578e4a9f93708859bc4c7.png)
 
